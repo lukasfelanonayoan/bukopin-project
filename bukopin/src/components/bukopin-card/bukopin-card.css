@@ -1,0 +1,38 @@
+.width-box{
+    width: 32%;
+}
+
+.card-box{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+    height: 100%;
+}
+
+h3.title{
+    font-family: "Flame-Bold";
+    color: #8b542f;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+button.button-add{
+    width: 100%;
+    background-color: #ed7801;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: 16px/22px "Flame-Regular";
+    font-weight: 700;
+    padding: 7px 0;
+}
+
+/* CSS Mobile Version */
+@media screen and (max-width: 768px) {
+    .width-box{
+        width: 50%;
+    }
+}

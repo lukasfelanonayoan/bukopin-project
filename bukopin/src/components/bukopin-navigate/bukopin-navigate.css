@@ -1,0 +1,95 @@
+.nav-head {
+  background-color: #212529;
+}
+nav.navigate-header {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+  display: table;
+  width: 100%;
+}
+.navbar-brand {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 35px;
+  width: 90px;
+  height: 90px;
+  z-index: 1000;
+  left: -125px;
+}
+.nav-link {
+  display: inline-block;
+  font-family: "Flame-Bold";
+  line-height: 1;
+  padding: 19px 40px 19px 0px;
+}
+.title {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Flame-Bold";
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #faaf18;
+  font-family: "Flame-Regular";
+}
+
+.cart {
+  padding: 23px 16px 24px 13px !important;
+  background-color: #ed7801!important;
+  float: left;
+  right: -20px;
+  position: relative;
+}
+
+.cart .badge {
+  position: absolute;
+  margin: -10px 0 0 15px;
+  color: #fff;
+  font-family: "Barlow-Medium";
+  padding: 1px 7px 2px 7px;
+  border-radius: 10px;
+  line-height: normal;
+  font-size: 14px;
+  background: red;
+}
+
+.cart-list {
+  display: none;
+  z-index: 1000;
+  background: white;
+  position: absolute;
+  top: 70px;
+  right: -80px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+  width: 430px;
+  padding: 1rem;
+}
+
+.cart:hover .cart-list {
+  display: block;
+}
+
+.cart-list .button {
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+  text-align: center;
+  font: 18px/22px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart-message{
+  color: black;
+  font-weight: 600;
+}

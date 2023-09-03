@@ -1,0 +1,89 @@
+.carousel-indicators {
+  bottom: -2rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  background: #ed7801 !important;
+}
+
+.carousel .carousel-indicators button {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #f1bc87 !important;
+}
+.carousel .carousel-indicators button.active,
+.carousel .carousel-indicators button:hover {
+  background-color: #ed7801 !important;
+  opacity: 1 !important;
+}
+
+.body-menu {
+  background: url("./images/BK_bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+.footer .title {
+  font-size: 20px;
+  font-family: "Flame-Regular";
+}
+.footer .icon {
+  width: 16px;
+}
+.footer .contact {
+  color: white;
+  text-decoration: none;
+}
+.footer .contact span {
+  font-weight: 600;
+  font-family: "Flame-Regular";
+}
+.footer .terms-conditions {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.footer .terms-conditions a {
+  color: #919191;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+.footer .terms-conditions a:hover {
+  color: white;
+}
+.footer .terms-conditions .right-line {
+  border-right: 1px solid #8a8a8a;
+  padding-right: 12px;
+}
+
+.footer .terms-conditions .right-line:not(:first-child),
+.copyright {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .terms-conditions span{
+    width: 100%;
+    display: block;
+    padding-top: 0.5rem;
+  }
+  .footer .terms-conditions a {
+    color: white;
+  }
+  .footer .terms-conditions .right-line {
+    border-right: none;
+    padding-right: 0px;
+    margin-left: 10px;
+  }
+}
